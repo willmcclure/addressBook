@@ -17,9 +17,15 @@ const contactCard = (contact) => {
         <section class="contactInfo">
             <span class="bold">Name:</span> ${contact.name.first} ${contact.name.last}</span>
             <br>
+            <span class="bold">Username:</span> ${contact.login.username}</span>
+            <br>
             <span class="bold">Phone Number:</span> ${contact.phone}</span>
             <br>
             <span class="bold">Email:</span> ${contact.email}</span>
+            <br>
+            <span class="bold">Age:</span> ${contact.dob.age}</span>
+            <br>
+            <span class="bold">Birthday:</span> ${contact.dob.date}</span>
             <br>
         </section>
     </main>

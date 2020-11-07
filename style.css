@@ -7,3 +7,11 @@ body {
 main{
     margin: 50px;
 }
+
+.contactInfo {
+    display: none;
+}
+
+.contactCard:hover .contactInfo {
+    display: block;
+}
